@@ -1,480 +1,479 @@
-<!DOCTYPE html>
-<html lang="en-us">
+    <!DOCTYPE html>
+    <html lang="en-us">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Maryland Minza is UMD's fusion competition!">
-    <meta name="author" content="Maryland Minza">
-    <title>Maryland Minza</title>
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="other.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/menu.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/modal.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/button.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/icon.min.css">
-    <!-- <link href="http://www.vr.umd.edu/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet"> -->
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="watermark.png">
-    <link rel="icon" type="image/x-icon" href="watermark.png">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Maryland Minza is UMD's fusion competition!">
+        <meta name="author" content="Maryland Minza">
+        <title>Maryland Minza</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="other.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/menu.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/modal.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/button.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/icon.min.css">
+        <!-- <link href="http://www.vr.umd.edu/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet"> -->
+        <!-- Custom Fonts -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" type="image/x-icon" href="watermark.png">
+        <link rel="icon" type="image/x-icon" href="watermark.png">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
 
-<body id="page-top" class="index">
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                     Maryland Minza
-                </a>
+    <body id="page-top" class="index">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                         Maryland Minza
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#video">Video</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#projects">Judges</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#apply">Apply</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#sponsors">Sponsors</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#board">Board</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- Hero -->
+        <div id="page-top" class="hero page-scroll">
+            <!-- <div class="menu-container">
+
+            </div> -->
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#video">Video</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Judges</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#apply">Apply</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#sponsors">Sponsors</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#board">Board</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!-- Hero -->
-    <div id="page-top" class="hero page-scroll">
-        <!-- <div class="menu-container">
-
-        </div> -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div id='stars'></div>
-        <div id='stars2'></div>
-        <div id='stars3'></div>
-        <div id="title">
-            <div id="sharvilissosmart">
-                <img id="logo" src="websitewatermark.png" />
-                <!-- <span>Maryland</span>
-                <span>Minza</span> -->
-            </div>
-            <!--<span>Maryland Minza</span> -->
-            <!-- <span class="date">Nov 4th 2017</span> -->
-            <!-- href="#projectsModal2" -->
-            <!-- <a data-toggle="projectsModal2" id="playButton" class="circular ui inverted icon button">
-                <i class="icon play"></i>
-            </a> -->
-        </div>
-    </div>
-    <section id="video" class="bg-light-gray-trans">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="youtube-player">
-                        <!-- <div class="youtube-player" data-id="EEuV50aYxGY"></div> -->
-                        <iframe src="https://www.youtube.com/embed/EEuV50aYxGY?ecver=1" frameborder="1" allowfullscreen></iframe>
-                    </div>
-                    <br>
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+            <div id="title">
+                <div id="sharvilissosmart">
+                    <img id="logo" src="websitewatermark.png" />
+                    <!-- <span>Maryland</span>
+                    <span>Minza</span> -->
                 </div>
+                <!--<span>Maryland Minza</span> -->
+                <!-- <span class="date">Nov 4th 2017</span> -->
+                <!-- href="#projectsModal2" -->
+                <!-- <a data-toggle="projectsModal2" id="playButton" class="circular ui inverted icon button">
+                    <i class="icon play"></i>
+                </a> -->
             </div>
         </div>
-    </section>
-    <!-- lab -->
-    <section id="about" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Us</h2>
-                    <div class="col-md-8 col-md-offset-2">
-                        <h3 class="section-subheading text-muted" id="lab_row">Maryland Minza is a national intercollegiate dance competition created to foster cultural awareness and passion for dancing. Minza was co-founded in 2016 at the University of Maryland by Meghana Annadata, Sonia Arya, and Neha Gupta. The word Minza means “star” in Urdu and was chosen to illuminate the essence of performing. <br> <br>
-
-South-Asian fusion dance is composed of various styles of dance from different areas internationally. Teams have the freedom to choose which styles they would like to include in their routine, as well as how they would like to represent a chosen theme, generally characterized by a story told through dance.</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <h4 class="service-heading"><a href="https://www.google.com/maps/place/The+Clarice+Smith+Performing+Arts+Center/@38.9905244,-76.9525658,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c69aff2b387f:0xb0a1974e44929f0a!8m2!3d38.9905244!4d-76.9503771">Location</a></h4>
-                    <p class="text-muted">Maryland Minza will be held
-                        <br>at the University of Maryland, College Park.
-                        <br> Here are the <a href="https://www.google.com/maps/dir//University+of+Maryland,+College+Park,+MD">directions on Google Maps.</a></p>
-                </div>
-                <div class="col-md-6">
-                    <h4 class="service-heading"><a href="https://www.facebook.com/groups/UMDVRClub/">Tickets</a></h4>
-                    <p class="text-muted">Regular: TBD
-                        <br> Student: TBD
-                        <br> Day of Event: TBD
+        <section id="video" class="bg-light-gray-trans">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="youtube-player">
+                            <!-- <div class="youtube-player" data-id="EEuV50aYxGY"></div> -->
+                            <iframe src="https://www.youtube.com/embed/EEuV50aYxGY?ecver=1" frameborder="1" allowfullscreen></iframe>
+                        </div>
                         <br>
-                    </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- projects Grid Section -->
-    <section id="projects" class="bg-light-gray-trans">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Judges</h2>
-                    <h3 class="section-subheading text-muted">Maryland Minza strives to get qualified judges who understand the Fusion environment. <br> <br> As the competition gets closer, we will reveal the identities of our 5 judges.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-2 col-md-offset-1">
-                    <img src="http://semantic-ui.com/images/avatar2/large/matthew.png" class="img-responsive" alt="">
-                    <h4>Judge #1</h4>
-                </div>
-                <div class="col-md-2">
-                    <img src="http://semantic-ui.com/images/avatar2/large/molly.png " class="img-responsive" alt="">
-                    <h4>Judge #2</h4>
-                </div>
-                <div class="col-md-2">
-                    <img src="http://semantic-ui.com/images/avatar2/large/matthew.png " class="img-responsive" alt="">
-                    <h4>Judge #3</h4>
-                </div>
-                <div class="col-md-2">
-                    <img src="http://semantic-ui.com/images/avatar2/large/molly.png " class="img-responsive" alt="">
-                    <h4>Judge #4</h4>
-                </div>
-                <div class="col-md-2">
-                    <img src="http://semantic-ui.com/images/avatar2/large/matthew.png" class="img-responsive" alt="">
-                    <h4>Judge #5</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Section -->
-    <section id="apply" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Application</h2>
-                    <p class="section-subheading text-muted">Registration packets are now live!</p><br>
-                    
-                    <form action="assets/MarylandMinzaApplicationPacket.pdf" target="_blank">
-                        <input type="submit" value="Register">
-                    </form>
+        </section>
+        <!-- lab -->
+        <section id="about" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">About Us</h2>
+                        <div class="col-md-8 col-md-offset-2">
+                            <h3 class="section-subheading text-muted" id="lab_row">Maryland Minza is a national intercollegiate dance competition created to foster cultural awareness and passion for dancing. Minza was co-founded in 2016 at the University of Maryland by Meghana Annadata, Sonia Arya, and Neha Gupta. The word Minza means “star” in Urdu and was chosen to illuminate the essence of performing. <br> <br>
 
-                    <br>
+    South-Asian fusion dance is composed of various styles of dance from different areas internationally. Teams have the freedom to choose which styles they would like to include in their routine, as well as how they would like to represent a chosen theme, generally characterized by a story told through dance.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <h4 class="service-heading"><a href="https://www.google.com/maps/place/The+Clarice+Smith+Performing+Arts+Center/@38.9905244,-76.9525658,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c69aff2b387f:0xb0a1974e44929f0a!8m2!3d38.9905244!4d-76.9503771">Location</a></h4>
+                        <p class="text-muted">Maryland Minza will be held
+                            <br>at the University of Maryland, College Park.
+                            <br> Here are the <a href="https://www.google.com/maps/dir//University+of+Maryland,+College+Park,+MD">directions on Google Maps.</a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="service-heading"><a href="https://www.facebook.com/groups/UMDVRClub/">Tickets</a></h4>
+                        <p class="text-muted">Regular: TBD
+                            <br> Student: TBD
+                            <br> Day of Event: TBD
+                            <br>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Sponsors -->
-    <section id="sponsors" class="bg-light-gray-trans">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sponsors</h2>
-                    <p class="section-subheading text-muted">A special thanks to our amazing sponsors for making Maryland Minza possible!</p>
-                    <br>
+        </section>
+        <!-- projects Grid Section -->
+        <section id="projects" class="bg-light-gray-trans">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Judges</h2>
+                        <h3 class="section-subheading text-muted">Maryland Minza strives to get qualified judges who understand the Fusion environment. <br> <br> As the competition gets closer, we will reveal the identities of our 5 judges.</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-2 col-md-offset-1">
+                        <img src="http://semantic-ui.com/images/avatar2/large/matthew.png" class="img-responsive" alt="">
+                        <h4>Judge #1</h4>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="http://semantic-ui.com/images/avatar2/large/molly.png " class="img-responsive" alt="">
+                        <h4>Judge #2</h4>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="http://semantic-ui.com/images/avatar2/large/matthew.png " class="img-responsive" alt="">
+                        <h4>Judge #3</h4>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="http://semantic-ui.com/images/avatar2/large/molly.png " class="img-responsive" alt="">
+                        <h4>Judge #4</h4>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="http://semantic-ui.com/images/avatar2/large/matthew.png" class="img-responsive" alt="">
+                        <h4>Judge #5</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="apply" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Application</h2>
+                        <p class="section-subheading text-muted">Registration packets are now live!</p>
+                        <br>
+                        <button onclick="location.href='assets/MarylandMinzaApplicationPacket.pdf';" class="huge ui labeled icon button">
+                            <i class="file pdf outline icon"></i> Packet
+                        </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sponsors -->
+        <section id="sponsors" class="bg-light-gray-trans">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Sponsors</h2>
+                        <p class="section-subheading text-muted">A special thanks to our amazing sponsors for making Maryland Minza possible!</p>
+                        <br>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col">
+                            <div class="team-member">
+                                <h4><b>Maryland Dhoom</b></h4>
+                                <br>
+                                <img src="assets/images/dhoom.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col">
+                            <div class="team-member">
+                                <h4><b>UMD EntouRAAS</b></h4>
+                                <br>
+                                <img src="assets/images/entouraas.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col">
+                            <div class="team-member">
+                                <h4><b>Sponsor #3</b></h4>
+                                <br>
+                                <img src="http://www.nw19.neale-wade.net/Images/business%20tower.jpg" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Team Section -->
+        <section id="board" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our team</h2>
+                        <br>
+                        <br>
+                    </div>
                 </div>
                 <div class="row flexbox">
                     <div class="col-sm-4 col">
                         <div class="team-member">
-                            <h4><b>Maryland Dhoom</b></h4>
-                            <br>
-                            <img src="assets/images/dhoom.png" class="img-responsive" alt="">
+                            <h3>Meghana Annadata</h3>
+                            <h4>Director</h4>
+                            <img src="assets/board/Meghana.jpg" class="img-responsive" alt="">
                         </div>
                     </div>
                     <div class="col-sm-4 col">
                         <div class="team-member">
-                            <h4><b>UMD EntouRAAS</b></h4>
-                            <br>
-                            <img src="assets/images/entouraas.png" class="img-responsive" alt="">
+                            <h3>Neha Gupta</h3>
+                            <h4>Director</h4>
+                            <img src="assets/board/Neha.jpg" class="img-responsive" alt="">
                         </div>
                     </div>
                     <div class="col-sm-4 col">
                         <div class="team-member">
-                            <h4><b>Sponsor #3</b></h4>
-                            <br>
-                            <img src="http://www.nw19.neale-wade.net/Images/business%20tower.jpg" class="img-responsive" alt="">
+                            <h3>Sonia Arya</h3>
+                            <h4>Director</h4>
+                            <img src="assets/board/Sonia.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Shriya Dalsania</h3>
+                            <h4>Mixer</h4>
+                            <img src="assets/board/Shriya.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Sneha Raj</h3>
+                            <h4>Mixer</h4>
+                            <img src="assets/board/Sneha.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Shaina Patel</h3>
+                            <h4>Mixer</h4>
+                            <img src="assets/board/Shaina.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Harsh Patel</h3>
+                            <h4>Tech</h4>
+                            <img src="assets/board/Harsh.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Amrita Mitra</h3>
+                            <h4>Tech</h4>
+                            <img src="assets/board/Amrita.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Vineet Shah</h3>
+                            <h4>Tech</h4>
+                            <img src="assets/board/Vineet.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Monil Ghodasra</h3>
+                            <h4>Finance</h4>
+                            <img src="assets/board/Monil.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Nikita Jumani</h3>
+                            <h4>Sponsorship</h4>
+                            <img src="assets/board/Nikita.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Sahil Patel</h3>
+                            <h4>Sponsorship</h4>
+                            <img src="assets/board/Sahil.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Kishan Segu</h3>
+                            <h4>Social Chair</h4>
+                            <img src="assets/board/Kishan.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Miral Shah</h3>
+                            <h4>Judging/Exhibition</h4>
+                            <img src="assets/board/Miral.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Lasya Komaragiri</h3>
+                            <h4>Public Relations</h4>
+                            <img src="assets/board/Lasya.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Naina Thangada</h3>
+                            <h4>Public Relations</h4>
+                            <img src="assets/board/Naina.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Kesha Patel</h3>
+                            <h4>Registration</h4>
+                            <img src="assets/board/Kesha.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Shay Kayamboo</h3>
+                            <h4>Registration</h4>
+                            <img src="assets/board/Shay.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Priya Dalsania</h3>
+                            <h4>Hospitality</h4>
+                            <img src="assets/board/Priya.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Nikhil Patel</h3>
+                            <h4>Hospitality</h4>
+                            <img src="assets/board/Nikhil.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Sydni Thomas</h3>
+                            <h4>Hospitality</h4>
+                            <img src="assets/board/Sydni.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Aesha Doshi</h3>
+                            <h4>Logistics</h4>
+                            <img src="assets/board/Aesha.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Vaidehi Bhagat</h3>
+                            <h4>Logistics</h4>
+                            <img src="assets/board/Vaidehi.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Rohini Nambiar</h3>
+                            <h4>Liaision Chair</h4>
+                            <img src="assets/board/Rohini.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col">
+                        <div class="team-member">
+                            <h3>Hemali Rami</h3>
+                            <h4>Liaison Chair</h4>
+                            <img src="assets/board/Hemali.jpg" class="img-responsive" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-    </section>
-    <!-- Team Section -->
-    <section id="board" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our team</h2>
-                    <br>
-                    <br>
-                </div>
-            </div>
-            <div class="row flexbox">
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Meghana Annadata</h3>
-                        <h4>Director</h4>
-                        <img src="assets/board/Meghana.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Neha Gupta</h3>
-                        <h4>Director</h4>
-                        <img src="assets/board/Neha.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Sonia Arya</h3>
-                        <h4>Director</h4>
-                        <img src="assets/board/Sonia.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Shriya Dalsania</h3>
-                        <h4>Mixer</h4>
-                        <img src="assets/board/Shriya.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Sneha Raj</h3>
-                        <h4>Mixer</h4>
-                        <img src="assets/board/Sneha.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Shaina Patel</h3>
-                        <h4>Mixer</h4>
-                        <img src="assets/board/Shaina.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Harsh Patel</h3>
-                        <h4>Tech</h4>
-                        <img src="assets/board/Harsh.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Amrita Mitra</h3>
-                        <h4>Tech</h4>
-                        <img src="assets/board/Amrita.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Vineet Shah</h3>
-                        <h4>Tech</h4>
-                        <img src="assets/board/Vineet.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Monil Ghodasra</h3>
-                        <h4>Finance</h4>
-                        <img src="assets/board/Monil.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Nikita Jumani</h3>
-                        <h4>Sponsorship</h4>
-                        <img src="assets/board/Nikita.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Sahil Patel</h3>
-                        <h4>Sponsorship</h4>
-                        <img src="assets/board/Sahil.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Kishan Segu</h3>
-                        <h4>Social Chair</h4>
-                        <img src="assets/board/Kishan.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Miral Shah</h3>
-                        <h4>Judging/Exhibition</h4>
-                        <img src="assets/board/Miral.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Lasya Komaragiri</h3>
-                        <h4>Public Relations</h4>
-                        <img src="assets/board/Lasya.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Naina Thangada</h3>
-                        <h4>Public Relations</h4>
-                        <img src="assets/board/Naina.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Kesha Patel</h3>
-                        <h4>Registration</h4>
-                        <img src="assets/board/Kesha.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Shay Kayamboo</h3>
-                        <h4>Registration</h4>
-                        <img src="assets/board/Shay.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Priya Dalsania</h3>
-                        <h4>Hospitality</h4>
-                        <img src="assets/board/Priya.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Nikhil Patel</h3>
-                        <h4>Hospitality</h4>
-                        <img src="assets/board/Nikhil.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Sydni Thomas</h3>
-                        <h4>Hospitality</h4>
-                        <img src="assets/board/Sydni.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Aesha Doshi</h3>
-                        <h4>Logistics</h4>
-                        <img src="assets/board/Aesha.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Vaidehi Bhagat</h3>
-                        <h4>Logistics</h4>
-                        <img src="assets/board/Vaidehi.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Rohini Nambiar</h3>
-                        <h4>Liaision Chair</h4>
-                        <img src="assets/board/Rohini.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-4 col">
-                    <div class="team-member">
-                        <h3>Hemali Rami</h3>
-                        <h4>Liaison Chair</h4>
-                        <img src="assets/board/Hemali.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact Section -->
-    <section id="contact" class="bg-navy-trans">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact us</h2>
-                    <h3 class="section-subheading text-muted">Get in touch with us at marylandminza@gmail.com!</h3>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- Footer section -->
-    <footer class="bg-light-gray-trans">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://www.instagram.com/marylandminza/"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com/marylandminza/"><i class="fa fa-facebook"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- projects Modals -->
-    <div class="projects-modal modal fade" id="projectsModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="bg-navy-trans">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2 style="color:white;">Maryland Minza</h2>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EEuV50aYxGY?rel=0?ecver=1 " frameborder="0" allowfullscreen></iframe>
-                            <br>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Contact us</h2>
+                        <h3 class="section-subheading text-muted">Get in touch with us at marylandminza@gmail.com!</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Footer section -->
+        <footer class="bg-light-gray-trans">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.instagram.com/marylandminza/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/marylandminza/"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- projects Modals -->
+        <div class="projects-modal modal fade" id="projectsModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="color:white;">Maryland Minza</h2>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/EEuV50aYxGY?rel=0?ecver=1 " frameborder="0" allowfullscreen></iframe>
+                                <br>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-    <!-- Bootstrap Core -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Custom Theme -->
-    <script src="app.js"></script>
-</body>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+        <!-- Bootstrap Core -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Custom Theme -->
+        <script src="app.js"></script>
+    </body>
 
-</html>
+    </html>
