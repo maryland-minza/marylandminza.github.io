@@ -146,7 +146,7 @@ body {
 
 @media (min-width: 1000px) {
     #title img {
-        max-width: 33%;
+        max-width: 30%;
         height: auto;
     }
 }
