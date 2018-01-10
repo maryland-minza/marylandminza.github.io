@@ -90,20 +90,17 @@
         
             </div> -->
         <!-- Collect the nav links, forms, and other content for toggling -->
-
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
         <div class="message"></div>
         <div id="title">
-        <p id="demo" style="font-size:38px; text-shadow: 5px 5px #000000;"></p>
+            <p id="demo" style="font-size:38px; text-shadow: 5px 5px #000000;"></p>
             <div id="sharvilissosmart">
-                <img id="logo"  src="websitewatermark.png" />
+                <img id="logo" src="websitewatermark.png" />
                 <!-- <span>Maryland</span>
                     <span>Minza</span> -->
-
             </div>
-            
             <!--<span>Maryland Minza</span> -->
             <!-- <span class="date">Nov 4th 2017</span> -->
             <!-- href="#projectsModal2" -->
@@ -131,14 +128,42 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About Us</h2>
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <!-- <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  </span> -->
+                            <h4 class="service-heading">Who We Are</h4>
+                            <p>Maryland Minza is a national intercollegiate dance competition created to foster cultural awareness and passion for dancing. Minza was co-founded in 2016 at the University of Maryland by Meghana Annadata, Sonia Arya, and Neha Gupta. The word Minza means “star” in Urdu and was chosen to illuminate the essence of performing.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  </span> -->
+                            <h4 class="service-heading">What is Fusion Dance</h4>
+                            <p>
+                                South-Asian fusion dance is composed of various styles of dance from different areas internationally. Teams have the freedom to choose which styles they would like to include in their routine, as well as how they would like to represent a chosen theme, generally characterized by a story told through dance.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  </span> -->
+                            <h4 class="service-heading">Venue</h4>
+                            <p>
+                                Maryland Minza will be held at the University of Maryland, College Park.
+                                Here are the <a href="https://www.google.com/maps/dir//University+of+Maryland,+College+Park,+MD">directions on Google Maps.</a> We look forward to seeing you there! Please don't hesitate to contact us if you have any questions!</p>
+                        </div>
+                    </div>
+                    <!--                    <div class="col-md-8 col-md-offset-2">
                         <h3 class="section-subheading text-muted" id="lab_row">Maryland Minza is a national intercollegiate dance competition created to foster cultural awareness and passion for dancing. Minza was co-founded in 2016 at the University of Maryland by Meghana Annadata, Sonia Arya, and Neha Gupta. The word Minza means “star” in Urdu and was chosen to illuminate the essence of performing. <br> <br>
 
     South-Asian fusion dance is composed of various styles of dance from different areas internationally. Teams have the freedom to choose which styles they would like to include in their routine, as well as how they would like to represent a chosen theme, generally characterized by a story told through dance.</h3>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-            <div class="row text-center">
+            <!--             <div class="row text-center">
                 <div class="col-md-6">
                     <h4 class="service-heading"><a href="https://www.google.com/maps/place/The+Clarice+Smith+Performing+Arts+Center/@38.9905244,-76.9525658,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c69aff2b387f:0xb0a1974e44929f0a!8m2!3d38.9905244!4d-76.9503771">Location</a></h4>
                     <p class="text-muted">Maryland Minza will be held
@@ -152,7 +177,7 @@
                         <br>
                     </p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- projects Grid Section -->
@@ -189,7 +214,7 @@
             </div>
         </section>
         <!-- About Section -->
-        <section id="apply" class="bg-light-gray ">
+        <section id="apply " class="bg-light-gray ">
             <div class="container ">
                 <div class="row ">
                     <div class="col-lg-12 text-center ">
@@ -203,7 +228,7 @@
             </div>
         </section>
         <!-- Sponsors -->
-        <section id="sponsors" class="bg-light-gray-trans ">
+        <section id="sponsors " class="bg-light-gray-trans ">
             <div class="container ">
                 <div class="row ">
                     <div class="col-lg-12 text-center ">
@@ -255,7 +280,7 @@
                                 <h4><b>Pepsi</b></h4>
                                 <br>
                                 <a href=''>
-                                <img src="assets/images/pepsi.png" class="img-responsive " alt=" ">
+                                <img src="assets/images/pepsi.png " class="img-responsive " alt=" ">
                                 </a>
                             </div>
                         </div>
@@ -317,7 +342,7 @@
                 </div>
         </section>
         <!-- Team Section -->
-        <section id="board" class="bg-light-gray ">
+        <section id="board " class="bg-light-gray ">
             <div class="container ">
                 <div class="row ">
                     <div class="col-lg-12 text-center ">
@@ -580,13 +605,13 @@ var countdownfunction = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo "
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    document.getElementById("demo ").innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
     
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(countdownfunction);
-        document.getElementById("demo").innerHTML = "MINZA IS HERE!";
+        document.getElementById("demo ").innerHTML = "MINZA IS HERE! ";
     }
 }, 1000);
 </script>
