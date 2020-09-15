@@ -162,6 +162,46 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+.btn-main {
+    border: none;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background-color: Transparent;
+}
+
+.btn-main:hover{
+    color: #fff;
+    text-decoration:underline;
+}
+.btn-main:focus,
+.btn-main:active,
+
+.btn-main.disabled,
+.btn-main[disabled],
+fieldset[disabled] .btn-main,
+.btn-main.disabled:hover,
+.btn-main[disabled]:hover,
+fieldset[disabled] .btn-main:hover,
+.btn-main.disabled:focus,
+.btn-main[disabled]:focus,
+fieldset[disabled] .btn-main:focus,
+.btn-main.disabled:active,
+.btn-main[disabled]:active,
+fieldset[disabled] .btn-main:active,
+.btn-main.disabled.active,
+.btn-main[disabled].active,
+fieldset[disabled] .btn-main.active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn-main .badge {
+    color: #fff;
+    background-color: #fff;
+}
+
 .btn-xl {
     padding: 20px 40px;
     text-transform: uppercase;
