@@ -139,6 +139,7 @@ $("select").each(function() {
 		});
 });
 
+
 (function () {
 	var $addItem = $("#add-item");
 	var $badge = $(".badge");
