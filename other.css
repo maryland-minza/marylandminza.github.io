@@ -24,7 +24,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Spectral",serif;
 }
 
 .text-muted {
@@ -70,7 +70,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Spectral", serif;
     font-weight: 700;
 }
 
@@ -199,7 +199,7 @@ fieldset[disabled] .btn-main.active {
 
 .btn-main .badge {
     color: #fff;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .btn-xl {
@@ -339,7 +339,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: rgba(15, 20, 27, 0);
+        background-color: rgba(25, 15, 27, 0);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -370,6 +370,7 @@ fieldset[disabled] .btn-xl.active {
  * rgb(244,58,62) red
  * rgb(255,213,32) yellow
  */
+
 header {
     text-align: center;
     background-attachment: scroll;

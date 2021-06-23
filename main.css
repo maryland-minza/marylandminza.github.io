@@ -1,15 +1,38 @@
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Spectral', serif;
 }
 /* CSS COMMENT */
+
 body {
     margin: 0;
 }
 
 .hero {
     height: 110vh;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background-image: linear-gradient(to bottom, rgba(17, 15, 123, .44) 26%, rgba(142, 46, 72, .22) 59%, rgba(200, 130, 65, .45) 100%), url("minzabackground.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    /*background: radial-gradient(ellipse at bottom, #21111e 0%, #090a0f 100%);*/
     overflow: hidden;
+}
+
+
+.herog {
+    height: 110vh;
+    background-image: linear-gradient(to bottom, rgba(17, 15, 123, .80) 26%, rgba(142, 46, 72, .70) 59%, rgba(200, 130, 65, .70) 100%), url("grey.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow: hidden;
+}
+
+.layer{
+    background-color: rgba(255,255,255,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
 }
 
 .section {
@@ -31,7 +54,7 @@ body {
 
 .section-3 {
     height: 700px;
-    background: #2c3e50;
+    background: #502c4c;
 }
 
 .section-4 {
@@ -109,7 +132,7 @@ body {
     right: 0;
     color: #FFF;
     text-align: center;
-    font-family: "lato", sans-serif;
+    font-family: "Spectral", serif;
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
@@ -215,7 +238,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #ffffff;
 }
 
 .container:hover .overlay {
