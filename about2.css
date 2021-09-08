@@ -75,6 +75,7 @@ h6 {
     font-weight: 700;
 }
 
+
 .img-centered {
     margin: 0 auto;
 }
@@ -340,7 +341,8 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 9px 0;
         border: 0;
-        background-color: rgb(37 37 37 / 100%);
+        background-color: rgb(17, 15, 123);
+     
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
