@@ -1373,7 +1373,7 @@ body {
       .navbar-default {
           padding: 9px 0;
           border: 0;
-          background-color: rgb(17, 15, 123);
+          background-color: transparent;
        
           -webkit-transition: padding .3s;
           -moz-transition: padding .3s;
