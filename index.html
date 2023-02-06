@@ -2,107 +2,640 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Maryland Minza is UMD's fusion competition!">
-  <meta name="author" content="Maryland Minza">
-  <title>Maryland Minza</title>
-  
-  <!-- Stylesheets --> 
-  <!-- the first controls header layout, the second header transparency -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="other.css" rel="stylesheet">
-  
-  <!-- Custom Fonts -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="about2.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Maryland Minza is UMD's fusion competition!">
+    <meta name="author" content="Maryland Minza">
+    <title>Maryland Minza</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="other.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/menu.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/modal.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/button.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/icon.min.css">
+    <!-- <link href="http://www.vr.umd.edu/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet"> -->
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="watermark.png">
+    <link rel="icon" type="image/x-icon" href="watermark.png">
+    <link rel="stylesheet" type="text/css" href="main copy.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" href="flipclock.css">
+    <script src="about.js "></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="flipclock.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
 </head>
 
 <body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                         Maryland Minza
+                    </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">Sponsorship</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#applications">Applications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#board">Board</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Hero -->
+    <div id="page-top" class="heron">
+        <!-- <div class="menu-container">
+        
+            </div> -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div class="message"></div>
+        <div id="title">
+            <p id="demo" style="font-size:38px; text-shadow: 5px 5px #000000;"></p>
+            <div id="sharvilissosmart">
+                <img id="logo" src="logo.jpg-removebg-preview.png"/>
+                <!-- <span>Maryland</span>
+                    <span>Minza</span> -->
+            </div>
+            <span>Feb 18th 2023</span> 
+            <br>
+            <span class="date">Bowie, Maryland</span>
 
-<!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top">
-          <div style="font-family: 'Spectral', serif;">Maryland Minza</div>
-        </a>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden"><a href="#page-top"></a></li>
-          <li><a class="btn btn-main" href="about.html">About</a></li>
-          <li><a class="btn bn-main" href="sponsorship.html">Sponsorship</a></li>
-	  <li><a class="btn bn-main" href="applications.html">Applications</a></li>
-          <li><a class="btn btn-main" href="gallery.html">Gallery</a></li>
-        </ul>
-      </div>
+            <div class="col-lg-12 text-center ">
+                <a href="https://bowiecenter.org/event/maryland-minza/" target="_blank" class="ticketButton" style="font-family: Montserrat">BUY TICKETS</a>
+            </div>
+             
+            <!-- <a data-toggle="projectsModal2" id="playButton" class="circular ui inverted icon button">
+                    <i class="icon play"></i>
+                </a> -->
+        </div>
     </div>
-  </nav>
-  <!-- Hero -->
-  <div id="page-top" class="heron page-scroll">
-  <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div>
-  <div class="message"></div>
-  <div id="title">
-    <div id="sharvilissosmart">
-	    </br>
-	    </br>
-      </br>
-      </br>
-      </br>
-      <center><font size="4000" color="#FFFFFF"><b><u class="section-heading"; style="font-family:Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif" style="margin-bottom: 30px !important;">MINZA 5.0</u></b></font></center>
 
-	    <center><img id="logo" src="logo_white.png" style="width:500px"/></center>
-    </div>
-  </div>
-  <div id="title">
-    <div id="sharvilissosmart">
-	    <div class="col-lg-12 text-center ">
-        <font color="#FFFFFF"><h2 class="section-heading"; style="margin-bottom: 30px !important;">February 20th</h2></font>
-        <font color="#FFFFFF"><h4 class="section-heading"; style="margin-bottom: 30px !important;">at</h4></font>
-        <font color="#FFFFFF"><h2 class="section-heading"; style="margin-bottom: 30px !important;">Bowie, Maryland</h2></font>
-      </div>
-    </div>
-  </div>
-  
-</div>
+    <section id="about" class="bg-light-gray" class="container-fluid" style="padding-top: 0px;padding-bottom: 0px;">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br />
+                <br />
+                <br />
+                <br />
+                <h1 class="section-heading" style="font-family: Montserrat; margin-bottom: 30px !important;">ABOUT US</h1>
+                <br />
+                <br />
+            </div>
+        </div>
+        <!-- ACCORDION ROW -->
+        <div class="row">
+           <ul class="accordion-group" id="accordion">
+              <li style="background-image: url('https://i.ytimg.com/vi/cd2QPolRrJI/maxresdefault.jpg');">
+                 <div class="accordion-overlay"></div>
+                 <h3>About Minza</h3>
+                 <section class="hidden-xs">
+                    <article>
+                       <p>MARYLAND MINZA IS A NON-PROFIT NATIONAL INTERCOLLEGIATE DANCE COMPETITION FOUNDED IN 2016 AT THE UNIVERSITY OF MARYLAND, COLLEGE PARK. MINZA SEEKS TO FOSTER CULTURAL AWARENESS BY PROVIDING AN INTEGRATED PLATFORM FOR DANCERS FROM ACROSS THE NATION TO PROMOTE, SHARE, AND ADVANCE SOUTH-ASIAN FUSION DANCE.</p>
+                    </article>
+                 </section>
+              </li>
+              <li class="out" style="background-image: url('https://images.squarespace-cdn.com/content/v1/5aa704b7697a9893c199236a/1524323684800-U04DVU122VGW91FITI7R/ke17ZwdGBToddI8pDm48kB10Nqzeg0Il5v10Z8PxTBBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx31MOkfV5i3KBb2jFkJe0vSh-6YDOuvIKvrVD0yZ9Fb8AL9q3K2ZxE7F3bsxB6mmQ/JLK1.jpg');">
+                 <div class="accordion-overlay"></div>
+                 <h3>What is South-Asian Fushion Dance?</h3>
+                 <section class="hidden-xs">
+                    <article>
+                       <p>FUSION DANCE, WHILE LARGELY BASED ON BOLLYWOOD DANCE, DRAWS INSPIRATION FROM A DIVERSE RANGE OF STYLES INCLUDING CLASSICAL, HIP-HOP, CONTEMPORARY, BHANGRA, AND MANY MORE.
+                       </p>
+                    </article>
+                 </section>
+              </li>
+              <li style="background-image: url('https://thedailytexan.com/wp-content/uploads/2015/04/SAAYA-900x601.jpg');">
+                 <div class="accordion-overlay"></div>
+                 <h3>The Comp</h3>
+                 <section class="hidden-xs">
+                    <article>
+                       <p>MINZA IS EXCITED TO BE A LEGENDS PARTNER COMPETITION, PROVIDING TEAMS THE OPPORTUNITY TO TRAVEL ACROSS THE NATION TO COMPETE IN THE NATIONAL CHAMPIONSHIP. WHILE HIGHLIGHTING THE BEAUTY OF PERFORMANCE, WE LOOK TO ULTIMATELY BRIDGE THE POWER BETWEEN COMMUNITY AND DANCE TO HELP THOSE IN NEED</p>
+                    </article>
+                 </section>
+              </li>
+              <li style="background-image: url('https://i.ytimg.com/vi/4TeNzfc6icU/maxresdefault.jpg');">
+                 <div class="accordion-overlay"></div>
+                 <h3>Venue & Details For 2023:</h3>
+                 <section class="hidden-xs">
+                    <article>
+                       <p>Bowie Center for the Performing Arts - February 18, 2023 at 6:00 PM</p>
+                    </article>
+                 </section>
+              </li>
+           </ul>
+        </div>
+     </section>
+    <!-- projects Grid Section -->
+    <section id="projects" class="bg-light-gray-trans hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Judges</h2>
+                    <h3 class="section-subheading text-muted">TBA</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-2 col-md-offset-1">
+                    <img src="assets/judges/Haritha.jpg " class="img-responsive" alt="">
+                    <h4>Haritha <br> Reddy</h4>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/judges/keertana.jpg" class="img-responsive" alt="">
+                    <h4>Keertana <br> Alur</h4>
+                </div>
+                <div class="col-md-2 ">
+                    <img src="assets/judges/dhruv.jpg" class="img-responsive" alt="">
+                    <h4>Dhruv <br> Naik</h4>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/judges/keerthana.png" " class="img-responsive " alt=" ">
+                        <h4>Keerthana <br> Pakanati</h4>
+                    </div>
+                    <div class="col-md-2 ">
+                        <img src="assets/judges/smirthi.JPG " class="img-responsive " alt=" ">
+                        <h4>Smirthi <br> Selvaraj</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sponsors -->
+        <section id="sponsors" class="bg-light-gray" style="padding-top: 100px;">
+            <div class="container">
+              <div class="row ">
+                <div class="col-lg-12 text-center ">
+                  <h1 class="section-heading" style="font-family: Montserrat; margin-bottom: 30px !important;">SPONSORSHIP</h1>
+                  <p class="section-subheading text-muted " style= "margin-left: 200px; margin-right: 200px;font-family: Montserrat"> Each year Maryland Minza relies on partnerships with various organizations to help us put on an amazing competition. Organizations have the option to sponsor Minza through monetary contributions that directly fund venues, meals, prizes, and much more. Alternatively, organizations may also support Minza with an in-kind donation of different goods or services that would be used throughout the competition weekend. Minza has widespread recognition among the South Asian community and we provide our sponsors with the unique opportunity to publicize themselves to thousands of college students from across the country through physical and digital advertising. <br>
+                </div>
+                <div class="col-lg-12 text-center ">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_donations" />
+                    <input type="hidden" name="business" value="25R93DBTMQHZ8" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="assets/Donate.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" style="padding-top: 15px"/>
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+                  </form>
+                  <p class="section-subheading text-muted " style= "margin-left: 200px; margin-right: 200px;margin-bottom: 30px;font-family: Montserrat"> All donations to Maryland Minza are tax-deductible given our  official 501(c)(3) non-profit status. Each year, we choose a partner charity and pledge to donate a portion of our ticket sales to this cause. This year we have chosen RAINN, the nation’s largest anti-sexual violence organization. We strive to host a successful competition and achieve our core mission whilst making a positive impact in this space.  <br>
+                </div>
+                <div class="col-lg-12 text-center ">
+                  <a href="assets/20-21 Minza Sponsorship Packet (Update).docx.pdf" target="_blank" class="myButton" style="font-family: Montserrat">SPONSPORSHIP PACKET</a>
+        
+                  <p class="section-subheading text-muted " style= "margin-left: 200px; margin-right: 200px; margin-top: 10px;font-family: Montserrat"> To learn more about how your organization can be an official Maryland Minza sponsor, feel free to look through our sponsorship packet or contact us at marylandminzasponsorship@gmail.com <br>
+                </div>
+              </div>
+            </div>
+          
+            <div style="border-radius: 25px;margin-left: 250px;margin-right: 250px;">
+              <div class="row ">
+                <div class="col-lg-12 text-center " style="margin-top: 50px">
+                  <p class="pastsponsors-subheading" style="font-family: Montserrat">A special thanks to our amazing sponsors for making Maryland Minza possible!</p>
+                  <br>
+                </div>
+                <div class="row flexbox" >
+                  <div class="col-sm-4 col ">
+                    <div class="team-member ">
+                      <h4><b>Safeway</b></h4>
+                      <br>
+                      <a href='https://www.safeway.com/' target="_blank">
+                        <img src="assets/images/safeway.jpeg " width="100px" height="200px" class="img-responsive " alt=" ">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col ">
+                    <div class="team-member ">
+                      <h4><b>Costco</b></h4>
+                      <br>
+                      <a href='https://www.costco.com/' target="_blank">
+                        <img src="assets/images/costco.png " width="300px" height="200px" class="img-responsive " alt=" ">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col ">
+                    <div class="team-member ">
+                      <h4><b>Artees</b></h4>
+                      <br>
+                      <a href='https://arteescustomtshirts.business.site/?fbclid=IwAR2bTEVMFgV2i-bzqZuXAWaPHhQTDxaJrGocGNpiL_aKlwsiNrT2R8CUH9Y' target="_blank">
+                        <img src="assets/images/artees.png " width="200px" height="100px" class="img-responsive " alt=" ">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row flexbox">
+                  <div class="col-sm-4 col ">
+                    <div class="team-member ">
+                      <h4><b>Bagel Place</b></h4>
+                      <br>
+                      <a href='http://www.bagelplacecollegepark.com/' target="_blank">
+                        <img src="assets/images/bagel_place.png " width="200px" height="100px" class="img-responsive " alt=" ">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col ">
+                    <div class="team-member ">
+                      <h4><b>Bethesda Bagels</b></h4>
+                      <br>
+                      <a href='https://www.bethesdabagels.com/' target="_blank">
+                        <img src="assets/images/bethesda.jpeg " width="125px" height="200px" class="img-responsive " alt=" ">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col ">
+                    <div class="team-member ">
+                      <h4><b>Tinu Jacob</b></h4>
+                      <br>
+                      <a href='http://www.patelbros.com/' target="_blank">
+                        <img src="assets/images/tinu.gif " width="300px" height="300px" class="img-responsive " alt=" ">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 col ">
+                  <div class="team-member ">
+                    <h4><b>Rex Thomas</b></h4>
+                    <br>
+                    <a href=''target="_blank">
+                      <img src="assets/images/rex.jpeg " width="300px" height="300px"class="img-responsive " alt=" ">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
 
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js "></script>
+        <!--Application-->
+        <section id="applications" class="bg-light-gray-trans">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-12 text-center ">
+                        <h2 class="section-heading" style="font-family: Montserrat; margin-bottom: 30px !important;">APPLICATIONS</h2>
+                  <p class="section-subheading text-muted " style= "margin-left: 200px; margin-right: 200px;font-family: Montserrat"> Each year Minza relies on liaisons, volunteers, and judges to help us put on a great competition. Check out our applications below to see how you can get involved with Minza!<br>
+                    <br />
+                <br />
+                <br />
+                <br />
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <!-- <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  </span> -->
+                            <h3 class="service-heading" style="font-family: Montserrat;">TEAMS</h3>
+                            <div class="col-lg-12 text-center ">
+                                <a class="myButton" target="_blank" href = '' style= "margin-top: 30px; margin-bottom: 30px; font-family: Montserrat">APPLICATION CLOSED</a>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  </span> -->
+                            <h3 class="service-heading" style="font-family: Montserrat;">LIASIONS</h3>
+                            <div class="col-lg-12 text-center ">
+                                <a class="myButton" target="_blank" href = '' style= "margin-top: 30px; margin-bottom: 30px; font-family: Montserrat">APPLICATION CLOSED</a>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  </span> -->
+                            <h3 class="service-heading" style="font-family: Montserrat;">JUDGES</h3>
+                            <div class="col-lg-12 text-center ">
+                                <a class="myButton" target="_blank" href = '' style= "margin-top: 30px; margin-bottom: 30px; font-family: Montserrat">APPLICATION CLOSED</a>
+                              </div>
+                        </div>
+                    </div>
+                
+                </div>
+              </div>
+            </div>
+          </section>
 
-<!-- Bootstrap Core -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
+        <!-- Team Section -->
+        <section id="board" class="bg-light-gray">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-12 text-center ">
+                        <h2 class="section-heading ">Our team</h2>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Esha Ponnuri</h3>
+                                <h4>Director</h4>
+                                <img src="board photes 22-23/26BDD2CF-7D2E-4DA4-ABD5-6924C8967A53 - Esha Ponnuri.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Shreya Vuttaluru</h3>
+                                <h4>Director</h4>
+                                <img src="board photes 22-23/Shreya V.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Hanish Mutyala</h3>
+                                <h4>Technology</h4>
+                                <img src="board photes 22-23/Hanish.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Shreya Kumaraswamy</h3>
+                                <h4>Technology</h4>
+                                <img src="board photes 22-23/7B9C52D6-894C-4EF4-8260-1543E560C164 - Shreya Kumaraswamy.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Shane Thakkar</h3>
+                                <h4>Technology</h4>
+                                <img src="board photes 22-23/Shane.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Arihant Gupta</h3>
+                                <h4>Logistics</h4>
+                                <img src="board photes 22-23/Arihant.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Supriya Daddi</h3>
+                                <h4>Logistics</h4>
+                                <img src="board photes 22-23/Supriya.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Archana Swaminathan</h3>
+                                <h4>Social</h4>
+                                <img src="board photes 22-23/IMG_2884 2 - Archana Swaminathan.PNG" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Sruthi Srinivasan</h3>
+                                <h4>Social</h4>
+                                <img src="board photes 22-23/Shruti.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Riya Gupta</h3>
+                                <h4>Hospitality</h4>
+                                <img src="board photes 22-23/DSC08966 - Riya Gupta.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Pragya Jha</h3>
+                                <h4>Hospitality</h4>
+                                <img src="board photes 22-23/Pragya.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Lumya Rangoonwala</h3>
+                                <h4>Hospitality</h4>
+                                <img src="board photes 22-23/Lumya.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Samyak Jain</h3>
+                                <h4>Liaison</h4>
+                                <img src="board photes 22-23/D8422DDD-B149-4E3C-8E73-FD113FC42831 - Samyak Jain.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Amisha Kunvar</h3>
+                                <h4>SMP</h4>
+                                <img src="board photes 22-23/Amisha.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Ashna Bhatia</h3>
+                                <h4>Mixer</h4>
+                                <img src="board photes 22-23/5A47D5EE-BA3B-4BAB-BD49-A8F9A4EACA80 - Ashna Bhatia.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Shreya Shete</h3>
+                                <h4>Mixer</h4>
+                                <img src="board photes 22-23/B61D788C-B647-4E4F-BC31-AA4F80350B33 - Shreya Shete.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Vyshnav Kandamath</h3>
+                                <h4>Mixer</h4>
+                                <img src="board photes 22-23/6617FC74-B106-48B4-985B-CB987D8AFAD3 - Vyshnav Kandamath.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Akriti Tripathi</h3>
+                                <h4>Finance</h4>
+                                <img src="board photes 22-23/IMG_7552 - Akriti Tripathi.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Jacob Shakesprere</h3>
+                                <h4>Finance</h4>
+                                <img src="board photes 22-23/Jacob.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Arya Bhargav</h3>
+                                <h4>Judging</h4>
+                                <img src="board photes 22-23/C60E958A-1634-434E-9DA3-6A2A02E0C7E6 - Arya Bhargav.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Debanshi Chowdhury</h3>
+                                <h4>Registration</h4>
+                                <img src="board photes 22-23/7FBC0C5F-FA8F-4978-AB2B-9C5F7A85E5CF - Debanshi Chowdhury.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flexbox">
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Amrutha Gandham</h3>
+                                <h4>Registration</h4>
+                                <img src="board photes 22-23/DSC08985 - Amrutha Gandham.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Vanshika Shah</h3>
+                                <h4>Public Relations</h4>
+                                <img src="board photes 22-23/4D86F9B3-D2E9-4928-A66C-5E0100D471E7 - Vanshika Shah.jpeg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col ">
+                            <div class="team-member ">
+                                <h3>Saran Kaur</h3>
+                                <h4>Public Relations</h4>
+                                <img src="board photes 22-23/Saran.jpg" class="img-responsive" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="bg-navy-trans ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-12 text-center ">
+                        <h2 class="section-heading ">Contact us</h2>
+                        <h3 class="section-subheading text-muted ">Get in touch with us at marylandminza@gmail.com!</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Footer section -->
+        <footer class="bg-light-gray-trans ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <ul class="list-inline social-buttons ">
+                            <li><a href="https://www.instagram.com/marylandminza/ "><i class="fa fa-instagram "></i></a></li>
+                            <li><a href="https://www.facebook.com/marylandminza/ "><i class="fa fa-facebook "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- projects Modals -->
+        <div class="projects-modal modal fade " id="projectsModal2 " tabindex="-1 " role="dialog " aria-hidden="true ">
+            <div class="modal-content ">
+                <div class="close-modal " data-dismiss="modal ">
+                    <div class="lr ">
+                        <div class="rl ">
+                        </div>
+                    </div>
+                </div>
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-lg-8 col-lg-offset-2 ">
+                            <div class="modal-body ">
+                                <h2 style="color:white; ">Maryland Minza</h2>
+                                <iframe width="560 " height="315 " src="https://www.youtube.com/embed/EEuV50aYxGY?rel=0?ecver=1 " frameborder="0 " allowfullscreen></iframe>
+                                <br>
+                                <button type="button " class="btn btn-primary " data-dismiss="modal "><i class="fa fa-times "></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js "></script>
+        <!-- Bootstrap Core -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
+        <!-- Custom Theme -->
+        <script src="app.js "></script>
+        <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Nov 4, 2017 18:00:00 ").getTime();
 
-<!-- Custom Theme -->
-<script src="app.js "></script>
-</body>
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
 
-<footer class="bg-light-gray-trans">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <ul class="list-inline social-buttons">
-          <li><a href="https://www.instagram.com/marylandminza/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://www.facebook.com/marylandminza/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        </ul>
-        <p style ="font-family: Montserrat">Get in touch with us at marylandminza@gmail.com!</p>
-      </div>
-    </div>
-  </div>
-</footer>
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo "
+    document.getElementById("demo ").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo ").innerHTML = "MINZA IS HERE! ";
+    }
+}, 1000);
+</script>
+    </body>
 
-
-</html>
+    </html>
